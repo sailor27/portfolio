@@ -25,3 +25,7 @@ lighter black #171515
   font-weight: bolder;
   border-style:groove;
 } */
+
+.active {
+  color: pink;
+}
