@@ -2,30 +2,80 @@
 ======= PORTFOLIO CSS =======
 color palette:
 wax flower (pink) #DA9094
-wistful (blue vio) #AEA8D3
+wistful (blue vio) #AEA8D3 */
 
-whiteish #f2f2f2
+/*whiteish #f2f2f2
 marilyn orange #DEAC9E
 yikes orange #EE7E8C
 lighter black #171515
+milhouse's hair #3E3FC3*/
 
 
+/*=======background design=========*/
+/*.container {
+  background-color: white;
+  height:100%;
+}
+body {
+  background-color: black;
+}*/
 
-.backdrop {
-  /*background-position: center;
-  background-image: url(https://s-media-cache-ak0.pinimg.com/564x/95/54/d6/9554d63ae1ac8265b10f3f6db99dd8f6.jpg);
-  background-repeat: repeat;
-  border-top: 40px solid black;
-
+/*=======styles for all pages=======*/
+a {
+  color:#3E3FC3;
+}
+a:hover{
+  color:#EE7E8C;
+  font-style: oblique;
 }
 
+footer {
+  margin-top:20px;
+}
+
+/*========navigation======
+
+.navbar{
+  background-color: white;
+  border: none;
+}
+.active {
+  background-color: black;
+}*/
+
+/*======homepage===============*/
+
 .jm {
+  margin-top: 12px;
   border: solid #431B1C 3px;
   background-color:#DEAC9E;
   font-weight: bolder;
-  border-style:groove;
-} */
+  border-style:solid;
+}
 
-.active {
-  color: pink;
+.jm a {
+  color:white;
+}
+
+/*===========about me==================*/
+.profile-photo {
+  max-width:300px;
+  margin: 0 auto 30px;
+}
+
+.fancy {
+  font-weight: bolder;
+  text-align: center;
+}
+
+/*======Projects=====*/
+.ptable th, td {
+  padding:10px;
+  text-align: center;
+  border-style: double;
+}
+
+/*=====links===*/
+.magenta {
+  color: magenta;
 }
